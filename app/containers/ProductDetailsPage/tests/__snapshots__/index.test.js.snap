@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetailsPage /> mapDispatchToProps function should mapDispatchToProps correctly 1`] = `
+Object {
+  "getProductDetails": [Function],
+}
+`;

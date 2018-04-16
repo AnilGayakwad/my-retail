@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui Reducer DEFAULT returns the initial state 1`] = `
+Object {
+  "productDetailsPage": Object {
+    "imageToDisplay": 0,
+    "photoIndex": 0,
+    "quantitySelected": 1,
+    "showLargeImages": false,
+  },
+}
+`;
+
+exports[`ui Reducer UI_STATE should update existing "productDetailsPage" object 1`] = `
+Immutable.Map {
+  productDetailsPage: Immutable.Map {
+    test: "passed",
+  },
+}
+`;

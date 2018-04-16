@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Details selectors makeSelectProductImagesByProductId should return error object matching productId=123 1`] = `
+Array [
+  Object {
+    "image": "http://image.com/14263758",
+  },
+  Object {
+    "image": "http://image.com/14263758_Alt01",
+  },
+  Object {
+    "image": "http://image.com/14263758_Alt02",
+  },
+  Object {
+    "image": "http://image.com/14263758_Alt03",
+  },
+  Object {
+    "image": "http://image.com/14263758_Alt04",
+  },
+  Object {
+    "image": "http://image.com/14263758_Alt05",
+  },
+  Object {
+    "image": "http://image.com/14263758_Alt06",
+  },
+  Object {
+    "image": "http://image.com/14263758_Alt07",
+  },
+]
+`;
+
+exports[`Product Details selectors makeSelectProductReviewsByProductId should return Object matching productId=123 1`] = `
+Object {
+  "Con": Array [
+    Object {
+      "datePosted": "Mon Mar 11 13:13:55 UTC 2013",
+      "overallRating": "1",
+      "screenName": "New York",
+      "title": "Very unhappy",
+    },
+  ],
+  "ConsolidatedRatableAttributes": Array [
+    Object {
+      "description": "Quality",
+      "name": "QUALITY",
+      "value": "4",
+    },
+  ],
+  "Pro": Array [
+    Object {
+      "datePosted": "Thu Apr 18 19:42:19 UTC 2013",
+      "overallRating": "5",
+      "screenName": "Eric",
+      "title": "Fantastic Blender",
+    },
+  ],
+  "Reviews": Array [],
+  "consolidatedOverallRating": "4",
+  "totalPages": "2",
+  "totalReviews": "14",
+}
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`productDetails actions productDetailsRequestFailed should have PRODUCT_DETAILS_REQUEST_FAILED type 1`] = `
+Object {
+  "error": true,
+  "meta": Object {
+    "productId": "123",
+  },
+  "payload": Object {
+    "error": [Error: failed],
+  },
+  "type": "app/ProductDetailsPage/PRODUCT_DETAILS_REQUEST_FAILED",
+}
+`;
+
+exports[`productDetails actions productDetailsRequestSucceeded should have PRODUCT_DETAILS_REQUEST_SUCCEEDED type 1`] = `
+Object {
+  "meta": Object {
+    "productId": "123",
+  },
+  "payload": Object {
+    "result": Object {
+      "pass": "pass",
+    },
+  },
+  "type": "app/ProductDetailsPage/PRODUCT_DETAILS_REQUEST_SUCCEEDED",
+}
+`;

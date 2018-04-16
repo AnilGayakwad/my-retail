@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui actions updateUiState should have UI_STATE type 1`] = `
+Object {
+  "payload": Object {
+    "test": "pass",
+  },
+  "type": "app/common/state/UI_STATE",
+}
+`;

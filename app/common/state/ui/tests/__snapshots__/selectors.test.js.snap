@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui selectors should return Ui as an object 1`] = `
+Object {
+  "newPage": Object {
+    "test": "newPageObj",
+  },
+  "productDetailsPage": Object {
+    "test": "pass",
+  },
+}
+`;

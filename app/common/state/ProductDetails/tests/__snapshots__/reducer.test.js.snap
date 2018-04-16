@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails Reducer DEFAULT returns the initial state 1`] = `Object {}`;
+
+exports[`ProductDetails Reducer PRODUCT_DETAILS_REQUEST_FAILED should set errorKey to getProductDetailsFailed and isFetching to false for productId=123 1`] = `
+Immutable.Map {
+  123: Immutable.Map {
+    error: Immutable.Map {
+      errorKey: "getProductDetailsFailed",
+    },
+    meta: Immutable.Map {
+      isFetching: false,
+    },
+  },
+}
+`;
+
+exports[`ProductDetails Reducer PRODUCT_DETAILS_REQUEST_SUCCEEDED should wipe errorKey, set isFetching false for productId=123 1`] = `
+Immutable.Map {
+  123: Immutable.Map {
+    map: Immutable.Map {
+      productDetails: Immutable.Map {
+      },
+    },
+    error: Immutable.Map {
+      errorKey: "",
+    },
+    meta: Immutable.Map {
+      isFetching: false,
+      lastUpdated: 123123,
+    },
+  },
+}
+`;
+
+exports[`ProductDetails Reducer PRODUCT_DETAILS_REQUESTED should set isFetching for productId=123 1`] = `
+Immutable.Map {
+  ProductDetails: Immutable.Map {
+    123: Immutable.Map {
+      meta: Immutable.Map {
+        isFetching: false,
+      },
+    },
+  },
+  123: Immutable.Map {
+    error: Immutable.Map {
+      errorKey: "",
+    },
+    meta: Immutable.Map {
+      isFetching: true,
+    },
+  },
+}
+`;
