@@ -16,7 +16,7 @@ import {
 } from './styles';
 import messages from './messages';
 
-const policyUrl = 'http://www.target.com/HelpContent?help=/sites/html/TargetOnline/help/returns_and_refunds/returns_and_refunds.html';
+const policyUrl = 'http://help.target.com/help/subcategoryarticle?childcat=Return+policy&parentcat=Returns+%26+Exchanges&searchQuery=search+help';
 
 function Returns() {
   return (
